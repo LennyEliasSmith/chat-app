@@ -1,0 +1,19 @@
+Greetings,
+
+My name is Lenny Smith and I am a first year Interactive Media student, currently taking the Web and App minor.
+I've been interested in game development for some time now, so I spend a lot of time making little demos in Unity / Unreal and occasionally
+volunteering with the local IGDA chapter. Other than that I've been trying my best to learn to draw and slowly but surely it is getting easier.
+Over the course of my first year, I've become pretty interested in Web Dev too and I am definitley eager to learn atleast one stack, which
+admittedly is quite a task.
+
+As for experience in web dev, I've taken a bunch of online courses on Udemy / Linkedin Learning, but alot of them have been on the basics like
+html, css, javascript. So most of my experience has come through TAMK's courses. I'd definitley love to learn more! 
+
+When I grow up, I want to have a job that challenges me and excites me. Not really sure what that job will be yet, but so far development -esque
+careers seem to be the best bet. So yes, when I grow up I want to be a senior developer somewhere nice. Preferably doing something a little more
+design focused, like UI/UX for example.
+
+Other than that, I look forward to this course.
+
+Cheers, Lenny Smith.
+
