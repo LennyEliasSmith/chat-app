@@ -1,6 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+<<<<<<< HEAD
+=======
+import Hello from './Hello';
+>>>>>>> bce95cf... Message
 
 function App() {
   return (
@@ -18,6 +22,11 @@ function App() {
         >
           Learn React
         </a>
+<<<<<<< HEAD
+=======
+       
+        <Hello brand="Willpower" name="Sir Lennard of High Wycombe"/>
+>>>>>>> bce95cf... Message
       </header>
     </div>
   );
