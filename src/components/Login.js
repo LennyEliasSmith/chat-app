@@ -1,6 +1,8 @@
 import React from 'react';
 import firebase from '../firebase'
 import { Link } from 'react-router-dom';
+import TextField from '@material-ui/core/TextField'
+
 class Login extends React.Component{
     constructor(props){
         super(props);
@@ -37,7 +39,8 @@ class Login extends React.Component{
                 {error && <p className="error-message">{error.message}</p>}
                 <form onSubmit={this.handleSubmit}>
                     <label htmlFor="email">Email Address</label>
-                    <input type="text" name="email" id="email" value={email} onChange={this.handleChange}></input>
+                    
+                    <input type="text" name="email" id="email" value={email} onChange={this.handleChange}></input><br></br>
                     <label htmlFor="password">Password</label>
                     <input
                     

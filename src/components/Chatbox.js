@@ -1,5 +1,6 @@
 import React from 'react';
 import firebase from '../firebase'
+import Avatar from '@material-ui/core/Avatar'
 
 class Chatbox extends React.Component{
     constructor(props){
@@ -34,13 +35,17 @@ class Chatbox extends React.Component{
         return(
             <div className="chatbox">
                 <ul className="chat-list">
+          
                     {this.state.chats.map(chat => {
                         const postDate = new Date(chat.date);
+                        
                         return(
+                            
                             <li key={chat.id}>
-                                <em>{postDate.getDate() + '/' + (postDate.getMonth() +1)}</em>
-                                <strong>{chat.user}:</strong>
-                                {chat.message}
+                                <Avatar variant="square">A</Avatar>
+                                <em>({postDate.getDate() + '/' + (postDate.getMonth() +1)}) </em>
+                                <strong>{chat.user}: </strong>
+                                {chat.message} 
                             </li>
                         )
                     })}
