@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Chatbox from './components/Chatbox';
+import {Link} from 'react-router-dom'
 
 
 class App extends React.Component{
@@ -42,6 +42,12 @@ return(
       <button>Send</button>
 
     </form>
+
+    {!this.props.user &&
+      <div className="disallow-chat">
+          <p><Link to="/login">Login</Link> or <Link to="/register">Register</Link></p>
+      </div>
+    }
 
   </div>
 );

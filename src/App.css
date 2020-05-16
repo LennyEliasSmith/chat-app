@@ -36,3 +36,72 @@
     transform: rotate(360deg);
   }
 }
+
+/* Chat app Styling*/
+
+.App h1{
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 2.6em;
+  width: 10vw;
+  height: 6vh;
+  
+
+  margin: auto;
+
+  color: white;
+  background-color: black;
+
+  border-radius: 10vw 1vh ;
+
+}
+
+.App ul{
+  text-align: center;
+  
+}
+
+.App ul li{
+
+  list-style-type: none;
+
+  background-color: lightgreen;
+  width: 4vw;
+  height: 3vh;
+
+  margin: auto;
+  margin-top: 5px;
+
+  border-radius: 2vw;
+
+  font-size: 1.5em;
+}
+
+/*Input styling*/
+
+
+
+.message-form input{
+
+  height: 3vh;
+  width: 10vw;
+
+  border-radius: 1vw;
+  box-sizing: border-box;
+  border: 3px solid grey;
+}
+
+.message-form button {
+
+height: 3vh;
+width: 5vw;
+
+font-size: 1.1em;
+
+color: white;
+background-color: green ;
+padding: 5px 5px;
+border-style: none ;
+border-radius: 5vw;
+
+}
