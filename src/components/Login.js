@@ -1,5 +1,6 @@
 import React from 'react';
 import firebase from '../firebase'
+import { Link } from 'react-router-dom';
 class Login extends React.Component{
     constructor(props){
         super(props);
@@ -28,9 +29,29 @@ class Login extends React.Component{
 
     }
     render(){
+        const{email,password,error} = this.state;
         return(
-            <div>
+            <div className="auth-container">
                 <h1>Login</h1>
+                <p>Login to access your account</p>
+                {error && <p className="error-message">{error.message}</p>}
+                <form onSubmit={this.handleSubmit}>
+                    <label htmlFor="email">Email Address</label>
+                    <input type="text" name="email" id="email" value={email} onChange={this.handleChange}></input>
+                    <label htmlFor="password">Password</label>
+                    <input
+                    
+                    type="password"
+                    name="password"
+                    id="password"
+                    value={password}
+                    onChange={this.handleChange}
+
+                    ></input>
+                    <button className="submit">Login</button>
+                    <p>Dont have an account? <Link className="login-btn" to="/register">Register here</Link>.</p>
+
+                </form>
             </div>
         );
 

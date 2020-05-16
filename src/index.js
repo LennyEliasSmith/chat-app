@@ -7,6 +7,7 @@ import Register from './components/Register';
 import {BrowserRouter as Router,Route, Link, Switch} from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 import firebase, { auth, provider } from './firebase';
+import Button from '@material-ui/core'
 
 class AppRouter extends React.Component{
 
@@ -33,7 +34,9 @@ class AppRouter extends React.Component{
                 <nav className="main-nav">
                   {!this.state.user && 
                   <div>
+                    <Button variant="contained">
                     <Link to='/login'>Login</Link>
+                    </Button>
                     <Link to='/register'>Register</Link>
                     </div>
                   }
